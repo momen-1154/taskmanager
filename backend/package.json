@@ -1,0 +1,23 @@
+{
+  "name": "taskflow-backend",
+  "version": "1.2.0",
+  "description": "TaskFlow Manager REST API (Express + Mongoose)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["express", "mongodb", "mongoose", "tasks", "mern"],
+  "author": "Md Al Momen",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
