@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply min-h-screen text-slate-900 antialiased;
+  background-color: #f8fafc;
+  background-image:
+    radial-gradient(38rem 38rem at 8% -5%, rgba(99, 102, 241, 0.20), transparent 60%),
+    radial-gradient(34rem 34rem at 95% 12%, rgba(20, 184, 166, 0.16), transparent 60%),
+    radial-gradient(40rem 40rem at 50% 115%, rgba(139, 92, 246, 0.16), transparent 60%);
+  background-attachment: fixed;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
