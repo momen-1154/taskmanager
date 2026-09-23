@@ -107,3 +107,7 @@ Deploy configs are included: `render.yaml` (backend blueprint — add `MONGODB_U
 - [x] Mongoose schema, MongoDB persistence, full CRUD
 - [ ] Push to GitHub and add your repository link here
 - [ ] Deploy and add your public app link here
+# Vercel: 
+- https://taskmanager-kdv53cfxi-momen20.vercel.app/
+# git hub: 
+- https://github.com/momen-1154/taskmanager
